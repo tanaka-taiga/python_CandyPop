@@ -10,7 +10,22 @@ def calc_prime(num):
             if i % j == 0:
                 break
         else:
-            sosulist.append()
+            sosulist.append(i)
     return sosulist
 
-print(calc_prime(primenum),end="")
+def check_sosu(list,num):
+    checker = False
+    for i in range(0,len(list)-1):
+        if(num % list[i] ==0):
+            return True
+        else:
+            continue
+
+checker = check_sosu(calc_prime(primenum),primenum)
+if primenum >=1000:
+    print("1000以上は判定できません",end="")
+elif checker:
+    print("not",end="")
+else:
+    print("Prime",end="")
+
