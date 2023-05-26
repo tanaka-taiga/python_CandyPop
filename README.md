@@ -2,5 +2,5 @@
 python_CandyPopのトレーニング用リポジトリ
 
 
-
+Masaru - test
 Moon - test
