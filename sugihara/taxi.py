@@ -1,4 +1,4 @@
-import sys
+import sys #インポート
 
 args = sys.argv
 input1 = int(args[1]) #引数を代入
