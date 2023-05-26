@@ -1,8 +1,11 @@
 # python_CandyPop
-python_CandyPopのトレーニング用リポジトリ
+
+python_CandyPop のトレーニング用リポジトリ
+
+Kishimoto_test.
+
+test tanakadesuga
 
 Masaru - test
 
 Moon - test
-
-test2a
