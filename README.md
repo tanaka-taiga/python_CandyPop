@@ -1,3 +1,3 @@
 # python_CandyPop
 python_CandyPopのトレーニング用リポジトリ
-tanakadesu
+test tanakadesuga
