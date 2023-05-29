@@ -24,8 +24,8 @@ curry_sales = order_curry * price_curry
 total_sales = chicken_sales + curry_sales
 
 #原価
-prime_cost_chicken  = int(chicken_sales * (cost_rate_chicken // 100))
-prime_cost_curry    = int(curry_sales * (cost_rate_curry // 100))
+prime_cost_chicken  = round(chicken_sales * (cost_rate_chicken / 100))
+prime_cost_curry    = round(curry_sales * (cost_rate_curry / 100))
 
 #総合原価
 total_prime_cost = prime_cost_chicken + prime_cost_curry
@@ -37,4 +37,5 @@ gross_profit_curry     =  curry_sales - prime_cost_curry
 #総合粗利
 total_gross_profit = gross_profit_chicken + gross_profit_curry
 
-print("売上高：",total_sales,"、","原価：",total_prime_cost,"粗利：",total_gross_profit ,end="")
+# print("売上高：",total_sales,"、","原価：",total_prime_cost,"、","粗利：",total_gross_profit ,end="")
+print(f'売上高：{total_sales}、原価：{total_prime_cost}、粗利：{total_gross_profit}',end='')
