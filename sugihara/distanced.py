@@ -14,4 +14,5 @@ if(station1 >= station2):
 else:
     result = station2[0] - station1[0]
 
+
 print(result)

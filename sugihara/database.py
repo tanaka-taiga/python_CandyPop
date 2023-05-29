@@ -23,6 +23,5 @@ session = scoped_session(
     )
     
 )
-
 Base = declarative_base()
 Base.query = session.query_property
