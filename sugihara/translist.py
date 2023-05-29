@@ -16,3 +16,4 @@ for i in text_list:
     transform.write(f'"{i.data}","{i.seq}","{i.departure}","{i.arrival}","{i.via}","{i.amount}"\n')
 
 transform.close()
+#ファイルをとじる

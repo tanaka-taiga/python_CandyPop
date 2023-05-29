@@ -23,3 +23,4 @@ if(session.query(Transport.data).filter_by(data = input1).count() >= 1 and sessi
     print("error:交通費生産テーブルにデータを登録できませんでした")
 session.add(transport)
 session.commit()
+#コミット

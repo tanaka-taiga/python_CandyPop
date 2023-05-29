@@ -3,6 +3,7 @@ from sqlalchemy import Column,String,Date,Integer,VARCHAR,DECIMAL
 from database import Base
 from database import ENGINE
 
+
 class Station(Base):
     __tablename__ ="stations"
     seq = Column('seq',Integer,primary_key=True)

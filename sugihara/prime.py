@@ -3,7 +3,6 @@ args = sys.argv
 
 input1 = int(args[1])#引数を代入
 
-
 #素数判定
 def judgment_prime(input1):
     i = 2

@@ -23,4 +23,5 @@ karaage_incom = karaage_price - karaage_cost
 curry_incom = curry_price - curry_cost
 sum_incom = karaage_incom + curry_incom
 
+
 print(f"売上高：{sum_price}、原価：{sum_cost}、粗利：{sum_incom}",end="")

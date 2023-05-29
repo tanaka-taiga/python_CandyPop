@@ -1,5 +1,5 @@
 import sys
-from sqlalchemy import Column,String,Date,Integer,VARCHAR,DECIMAL
+from sqlalchemy import Column,Date,Integer,VARCHAR,DECIMAL
 from database import Base
 from database import ENGINE
 
